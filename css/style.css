@@ -1,49 +1,44 @@
-.layout{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
+.layout {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
 }
 
-.sidebar{
-    width: 25%;
+.sidebar {
+  width: 25%;
 }
 
-.Avatar{
-    height: 150px;
-    width: 50%;
-    margin:auto;
-    background-image:url(/Images/Avatar.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 50%;
-
-
-
+.Avatar {
+  height: 100px;
+  width: 50%;
+  margin: auto;
+  background-image: url(/Images/Avatar.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
 }
 
-.main{
-    width:75%;
+.main {
+  width: 75%;
 }
 
-.hero{
-    height: 100vh;   
-    background-image: url(../Images/Hero-bg.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+.hero {
+  height: 100vh;
+  background-image: url(../Images/Hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.hero div{
-    height: 24%;
-    width: max-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+.hero div {
+  height: 24%;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
